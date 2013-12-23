@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{width:1266px;margin-top:0px; margin-left:0px;background-color:#fff;font-family: "Helvetica Neue";font-weight:lighter}
+.bg{background-image:url(../image/bg.png);  position: fixed; width: 100%;height: 150%;top:0;left:0;z-index: -1;opacity:0.6}
+.header {margin-top:52px;margin-left:165px;font-size:24px}
+
+/*Intro start*/
+.intro{margin-top:35px;background:#1a1a1a; width:100%; color:#fff;height:225px;}
+.text{margin-left:165px;font-size:40px;padding-top:70px;}
+/*Intro end*/
+
+/*profile start*/
+.profile{margin-left:375px;width:400px}
+.part1{font-size:20px;text-align:justify;color:#666;width:525px;}
+.part2{font-size:24px;text-align:justify;color:#1a1a1a;width:525px;}
+/*profile end*/
+
+/*Artwork start*/
+.artwork{margin-top:26px;height:930px;margin-bottom:25px;}
+.artwork .line{margin-left:375px;}
+.artwork_title{margin-top:20px;margin-bottom:30px;text-align: center;font-size:24px;color:#1a1a1a;}
+.works{width:1266px;height:845px;}
+/*.work1, .work2, .work3, .work4, .work5, .work6{float:left};*/
+
+.works a {
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    width:422px;
+    height:422px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+	
+	background-repeat:no-repeat;
+    background-origin:border-box;
+    background-position:50% 50%;
+    
+    border-width:50px;
+    border-color:rgba(0,0,0,0);
+    
+    -webkit-transition:0.5s ease;
+    -moz-transition:0.5s ease;
+    -ms-transition:0.5s ease;
+    -o-transition:0.5s ease;
+    transition:0.5s ease;
+}
+a.work1{background-image:url(../image/artwork_1.png);float:left}
+a.work2{background-image:url(../image/artwork_2.png);float:left}
+a.work3{background-image:url(../image/artwork_3.svg);float:right}
+a.work4{background-image:url(../image/artwork_4.svg);float:left}
+a.work5{background-image:url(../image/artwork_5.png);float:left}
+a.work6{background-image:url(../image/artwork_6.svg);float:right}
+
+a.work1, a.work2, a.work3, a.work4, a.work5, a.work6{border:211px solid  rgba(0,0,0,0.7);color:#fff;text-decoration:none;}
+.work1 span, .work2 span, .work3 span, .work4 span, .work5 span, .work6 span{display:block;width:150px;margin-left:-50px;vertical-align: middle; font-size:24px }
+a.work1:hover, a.work2:hover, a.work3:hover, a.work4:hover, a.work5:hover, a.work6:hover{border: 1px solid  rgba(0,0,0,0.7);}
+.work1:hover span, .work2:hover span, .work3:hover span, .work4:hover span, .work5:hover span, .work6:hover span{display:none}
+/*Artwork end*/
+
+/*Photography start*/
+.photography{margin-top:25px;}
+#photography_icon{display: block;margin-left:auto;margin-right:auto}
+.photography_title{margin-top:20px;text-align: center;font-size:24px;color:#1a1a1a;}
+.slideshow{width:1266px;height:545px;}
+.fadein { position:relative;width:720px;height:480px;display: block;}
+.fadein img { position:absolute;margin-left:300px;margin-top:25px;display: block;width:100%; height:100%;}
+.nextButton{background:url(../image/btNext.png) ;width:77px;height:77px;float:right;margin-top:-250px;margin-right:100px;opacity:0.5}
+.nextButton:hover{background:url(../image/btNext_hover.png) no-repeat;opacity:0.5}
+.previousButton{background:url(../image/btPrevious.png) ;width:77px;height:77px;margin-top:-275px;margin-left:150px;opacity:0.5}
+.previousButton:hover{background:url(../image/btPrevious_hover.png) no-repeat;opacity:0.5;}
+/*Photography end*/
+
+/*footer start*/
+.footer{height:540px}
+.contact{background:#1a1a1a; width:100%;height:363px;}
+#link{margin-left:345px;margin-top:110px;position:absolute;}
+.flickr{background:url(../image/contact_flickrDeactive.png) no-repeat;width:100px; height:110px;margin-top:25px}
+.flickr:hover{background:url(../image/contact_flickrActive.png) no-repeat}
+.facebook{background:url(../image/contact_facebookDeactive.png) no-repeat;width:100px; height:135px;margin-left:170px;position:absolute}
+.facebook:hover{background:url(../image/contact_facebookActive.png) no-repeat}
+.google{background:url(../image/contact_googleDeactive.png) no-repeat;width:80px; height:135px;margin-left:377px;margin-top:6px;position:absolute}
+.google:hover{background:url(../image/contact_googleActive.png) no-repeat}
+.twitter{background:url(../image/contact_twitterDeactive.png) no-repeat;width:100px; height:135px;margin-left:512px;position:absolute}
+.twitter:hover{background:url(../image/contact_twitterActive.png) no-repeat}
+
+.copyright{margin-top:80px;margin-left:165px;color:#666;font-size:22px;}
+.copyright span{color:#1a1a1a;}
+/*footer end*/
